@@ -1,0 +1,15 @@
+:root {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+
+  /* Colors */
+  --orange: #e06d5e;
+  --green: #138808;
+  --cyan: #26c8aa;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+}
+
