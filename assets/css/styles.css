@@ -100,7 +100,7 @@ body {
 
 /* Banner Styles */
 .banner {
-  background: url("/images/banner.jpg") center center no-repeat;
+  background: url("https://lh3.googleusercontent.com/LfDWJOvu_2sw5SDQfI0PIMRL9yyPWrYShruCao4wunXWBSaamdSPgxJW_sw9C9xO0_c25BVlggRJIBR6WoSSQBsZNZswW-sfRu5IVs_F_bs32s43tYXCVdnC85LKJ9olbHef4thUMZg=w2400") center center no-repeat;
   background-size: cover;
   height: 100vh;
 }
