@@ -40,6 +40,7 @@ body {
   margin: 0;
   width: 100%;
   background-color: var(--skin);
+  box-shadow: 0px 0px 5px 3px rgba(0, 0, 0, 0.3);
 }
 
 .navbar-toggler {
@@ -167,29 +168,51 @@ p {
   }
 }
 
-/* Payment Section */
+/* Permit Section */
 .permit {
   background: var(--skin);
+  color: #fff;
 }
 .permitTitle {
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 50px 0;
+  padding: 2rem 0;
   font-weight: 700;
-  color: #fff;
 }
 
 .permitGrid {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(4, 1fr);
-  row-gap: 50px;
+  row-gap: 3rem;
   text-align: center;
+  padding-bottom: 3rem;
 }
 
 .permitGridSub {
-  width: 50%;
+  width: 80%;
+  padding: 2rem 1rem;
   margin: 0 auto;
+  background-color: var(--orange);
+}
+
+.icon {
+  margin-bottom: 1rem;
+}
+
+.type {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.form {
+  font-weight: 700;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 0.9rem;
 }
 
 /* Jump to Top Button */
