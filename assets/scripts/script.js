@@ -1,13 +1,24 @@
-const jump = document.querySelector(".jump");
-const body = document.querySelector("body");
+// ScrollTopTop Button Action
+const scrollToTopBtn = document.querySelector(".scrollToTopBtn");
+const rootElement = document.documentElement;
 
+const handleScroll = () => {
+  const scrollTotal = rootElement.scrollHeight - rootElement.clientHeight;
+  if((rootElement.scrollTop / scrollTotal) > 0.30) {
+    scrollToTopBtn.classList.add("showBtn");
+  } else {
+    scrollToTopBtn.classList.remove("showBtn");
+  }
+}
 
-// const scrollTop = () => {
-//   if(document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-//     jump.style.display = "block";
-//   } else {
-//     jump.style.display = "none";
-//   }
-// }
+const scrollToTop = () => {
+  rootElement.scrollTo ({
+    top: 0,
+    behavior: "smooth"
+  })
+}
 
-scrollTop();
+scrollToTopBtn.addEventListener("click", scrollToTop);
+document.addEventListener("scroll", handleScroll);
+// End of Scroll To Top Button Action
+

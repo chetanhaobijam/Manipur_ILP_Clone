@@ -167,28 +167,57 @@ p {
   }
 }
 
+/* Payment Section */
+.permit {
+  background: var(--skin);
+}
+.permitTitle {
+  font-size: 2rem;
+  text-align: center;
+  padding: 50px 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+.permitGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  row-gap: 50px;
+  text-align: center;
+}
+
+.permitGridSub {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /* Jump to Top Button */
-.jump {
+.scrollToTopBtn {
   width: 60px;
   height: 60px;
-  background: #000;
+  background: var(--green);
   position: fixed;
   bottom: 1%;
   right: 0.5%;
   z-index: 99;
-  opacity: 0.5;
+  opacity: 0;
   outline: none;
-  border-radius: 5px;
+  border-radius: 50%;
+  cursor: pointer;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
 }
 
-.jump:hover {
+.scrollToTopBtn:hover {
   opacity: 1;
 }
 
-.jumpBtn {
-  opacity: 0.7;
+.scrollToTopBtn a:hover {
+  text-decoration: none;
 }
 
-.jump a:hover {
-  text-decoration: none;
+.showBtn {
+  opacity: 0.5;
+  transform: translateY(0);
 }
