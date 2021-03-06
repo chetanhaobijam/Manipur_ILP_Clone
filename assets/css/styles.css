@@ -26,6 +26,7 @@
   --skin: #ff9934;
   --red: #cc3300;
   --orange: #e06d5e;
+  --darkorange: #F36519;
   --green: #138808;
   --cyan: #26c8aa;
 }
@@ -193,7 +194,7 @@ p {
   width: 80%;
   padding: 2rem 1rem;
   margin: 0 auto;
-  background-color: var(--orange);
+  cursor: pointer;
 }
 
 .icon {
@@ -221,7 +222,7 @@ p {
   }
 
   .permitGridSub {
-    width: 60%;
+    width: 50%;
   }
 
   .description {
@@ -236,8 +237,51 @@ p {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
+  .permitGridSub {
+    width: 70%;
+  }
 }
 
+@media screen and (min-width: 1200px) {
+  .permitGrid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    padding-bottom: 4rem;
+  }
+  .permitGridSub {
+    width: 80%;
+  }
+}
+
+/* Permit Grid Animations */
+.permitGridSub:hover {
+  animation-name: permitGridSubHover;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes permitGridSubHover {
+  0% {
+    background-color: #fff;
+  }
+  100% {
+    background-color: var(--darkorange);
+  }
+}
+
+.icon img:hover {
+  animation-name: zoomIcon;
+  animation-duration: 2s;
+}
+
+@keyframes zoomIcon {
+  0% {
+    transform: scale(1.0);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
 /* Jump to Top Button */
 .scrollToTopBtn {
   width: 40px;

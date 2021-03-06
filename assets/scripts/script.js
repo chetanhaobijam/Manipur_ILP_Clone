@@ -22,3 +22,4 @@ scrollToTopBtn.addEventListener("click", scrollToTop);
 document.addEventListener("scroll", handleScroll);
 // End of Scroll To Top Button Action
 
+// Start of Permit Sub-grid Action
