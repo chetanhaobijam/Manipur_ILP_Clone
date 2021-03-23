@@ -87,7 +87,7 @@ body {
 @media screen and (min-width: 992px) {
   .navbar {
     position: fixed;
-    bottom: 89%;
+    bottom: 90%;
   }
 
   .navbar-nav {
@@ -119,6 +119,7 @@ body {
     margin-right: 10rem;
   }
 }
+/* End of Navigation Styles */
 
 /* Banner Styles */
 .banner {
@@ -168,13 +169,14 @@ p {
     width: 70%;
   }
 }
+/* End of Banner Styles */
 
-/* Permit Section */
+/* Permit Section Styles*/
 .permit {
   background: var(--skin);
   color: #fff;
 }
-.permitTitle {
+.permitTitle, .paymentTitle {
   font-size: 1.5rem;
   text-align: center;
   padding: 2rem 0;
@@ -213,12 +215,13 @@ p {
 
 .description {
   font-weight: 300;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 @media screen and (min-width: 576px) {
-  .permitTitle {
-    font-size: 2rem;
+  .permitTitle, .paymentTitle {
+    font-size: 2.5rem;
+    padding: 4rem 0 1rem 0;
   }
 
   .permitGridSub {
@@ -247,6 +250,7 @@ p {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     padding-bottom: 4rem;
+    margin: 0 5rem;
   }
   .permitGridSub {
     width: 80%;
@@ -282,6 +286,32 @@ p {
     transform: scale(1.2);
   }
 }
+/* End of Permit Types Styles */
+
+/* Payment Types Styles */
+.payment {
+  background-color: rgb(240, 240, 240);
+  padding-bottom: 2rem;
+}
+.paymentGrid {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(4, 1fr);
+}
+
+.paymentGridOne, .paymentGridTwo, .paymentGridThree, .paymentGridFour {
+  background-color: #fff;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.paymentSubTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 2rem 0;
+}
+/* End of Payment Types Styles */
+
 /* Jump to Top Button */
 .scrollToTopBtn {
   width: 40px;
