@@ -395,7 +395,7 @@ p {
 .applyBtn .btn-warning:hover, .applyBtn .btn-warning:focus {
   background: var(--dark);
   color: #fff;
-  border: var(--dark);
+  border-color: var(--dark);
 }
 
 .applyBtn .btn-warning:focus {
@@ -409,9 +409,10 @@ p {
 .btn-warning:not(:disabled):not(.disabled):active {
   background: var(--dark);
   color: #fff;
-  border: var(--dark);
+  border-color: var(--dark);
 }
 
+/*Media Queries for Apply Section*/
 @media screen and (min-width: 567px) {
   .applyTitle {
     font-size: 2rem;
@@ -438,6 +439,32 @@ p {
     width: 40%;
   }
 }
+
+/*Foreigners Section*/
+.foreigners {
+  padding-bottom: 3rem;
+}
+
+.foreignersTitle {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.foreigners .description {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/*Media Queries for Foreigners Section*/
+@media screen and (min-width: 567px) {
+  .foreignersTitle {
+    font-size: 2rem;
+  }
+}
+
+
 /* Jump to Top Button */
 .scrollToTopBtn {
   width: 40px;
