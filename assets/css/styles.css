@@ -374,6 +374,70 @@ p {
   }
 }
 
+/*Apply Section*/
+.apply {
+  padding-bottom: 5rem;
+  background: #f0f0f0;
+}
+
+.applyTitle {
+  padding: 2rem 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+.applyBtn {
+  display: flex;
+  justify-content: center;
+}
+
+.applyBtn .btn-warning:hover, .applyBtn .btn-warning:focus {
+  background: var(--dark);
+  color: #fff;
+  border: var(--dark);
+}
+
+.applyBtn .btn-warning:focus {
+  box-shadow: 0 0 0 0.2rem rgb(79 79 77 / 50%);
+}
+
+.btn-warning:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgb(79 79 77 / 50%);
+}
+
+.btn-warning:not(:disabled):not(.disabled):active {
+  background: var(--dark);
+  color: #fff;
+  border: var(--dark);
+}
+
+@media screen and (min-width: 567px) {
+  .applyTitle {
+    font-size: 2rem;
+  }
+  .btn-warning {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btn-warning {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .btn-warning {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .btn-warning {
+    width: 40%;
+  }
+}
 /* Jump to Top Button */
 .scrollToTopBtn {
   width: 40px;
