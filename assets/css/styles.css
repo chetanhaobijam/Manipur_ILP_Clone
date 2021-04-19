@@ -464,12 +464,95 @@ p {
   }
 }
 
+/*Credits Section*/
+.credits {
+  padding: 3rem 2rem;
+  background: var(--green);
+  color: #fff;
+}
 
+.creditsTitle {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.departments {
+  margin-bottom: 1rem;
+}
+
+.endCredits {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.endCredits div {
+  grid-column: 1/13;
+}
+.endCredits a {
+  color: #000108;
+  margin-bottom: 1rem;
+}
+
+/*Media Queries for Credits Section*/
+@media screen and (min-width: 567px) {
+  .creditsTitle {
+    font-size: 1.5rem;
+  }
+  .endCredits div {
+    grid-column: 6/13;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .creditsTitle {
+    font-size: 2rem;
+  }
+  .endCredits div {
+    grid-column: 8/13;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .endCredits div {
+    grid-column: 9/13;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .endCredits div {
+    grid-column: 10/13;
+  }
+}
+
+/*Footer*/
+.footer {
+  background: var(--dark);
+  color: #fff;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.footer a {
+  color: #fff;
+  font-weight: 300;
+  display: block;
+}
+
+/*Media Queries for Footer*/
+@media screen and (min-width: 567px) {
+  .footer {
+    font-size: 1rem;
+  }
+  .footer a {
+    display: inline;
+  }
+}
 /* Jump to Top Button */
 .scrollToTopBtn {
   width: 40px;
   height: 40px;
-  background: var(--green);
+  background: var(--dark);
   position: fixed;
   bottom: 1%;
   right: 0.5%;
@@ -491,7 +574,7 @@ p {
 }
 
 .showBtn {
-  opacity: 0.3;
+  opacity: 0.4;
   transform: translateY(0);
 }
 
