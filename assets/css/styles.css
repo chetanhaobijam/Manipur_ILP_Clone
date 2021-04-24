@@ -256,23 +256,21 @@ p {
 
 /* Permit Grid Animations */
 .permitGridSub:hover {
-  animation-name: permitGridSubHover;
-  animation-duration: 1s;
+  animation: permitGridSubHover ease 1s;
   animation-fill-mode: forwards;
 }
 
 @keyframes permitGridSubHover {
-  0% {
+  from {
     background-color: #fff;
   }
-  100% {
+  to {
     background-color: var(--darkorange);
   }
 }
 
-.icon img:hover {
-  animation-name: zoomIcon;
-  animation-duration: 2s;
+.zoom {
+  animation: zoomIcon ease 2s;
 }
 
 @keyframes zoomIcon {
@@ -283,6 +281,12 @@ p {
     transform: scale(1.2);
   }
 }
+
+.pushUp {
+  animation: pushUp ease 2s;
+}
+
+@keyframes pushUp {}
 
 /* Payment Section */
 .payment {
@@ -390,6 +394,11 @@ p {
 .applyBtn {
   display: flex;
   justify-content: center;
+}
+
+.applyBtn .btn {
+  background-color: var(--skin);
+  border-color: var(--skin);
 }
 
 .applyBtn .btn-warning:hover, .applyBtn .btn-warning:focus {
