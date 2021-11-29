@@ -87,7 +87,7 @@ body {
 @media screen and (min-width: 992px) {
   .navbar {
     position: fixed;
-    bottom: 89%;
+    inset: 0 auto auto 0;
   }
 
   .navbar-nav {
@@ -199,7 +199,13 @@ p {
 }
 
 .icon {
-  margin-bottom: 1rem;
+  margin: 0 auto 1rem;
+  max-width: 100px;
+}
+
+.icon img {
+  width: 100%;
+  height: 100%;
 }
 
 .type {

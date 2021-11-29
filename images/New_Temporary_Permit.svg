@@ -1,0 +1,20 @@
+<svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
+<g style="mix-blend-mode:multiply">
+<rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE"/>
+</g>
+<rect x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F"/>
+<rect x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F"/>
+<rect x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F"/>
+<rect x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F"/>
+<rect x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F"/>
+<rect x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)" fill="#8D6C9F"/>
+<rect x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)" fill="#8D6C9F"/>
+<rect x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)" fill="#8D6C9F"/>
+<rect x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)" fill="#8D6C9F"/>
+<rect x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)" fill="#8D6C9F"/>
+<rect x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)" fill="#8D6C9F"/>
+<rect x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)" fill="#8D6C9F"/>
+<circle cx="84.5" cy="102.5" r="21.5" fill="#D37B2C"/>
+<path d="M84.5 81.6719C72.9941 81.6719 63.6719 90.9941 63.6719 102.5C63.6719 114.006 72.9941 123.328 84.5 123.328C96.0059 123.328 105.328 114.006 105.328 102.5C105.328 90.9941 96.0059 81.6719 84.5 81.6719ZM84.5 119.297C75.2197 119.297 67.7031 111.78 67.7031 102.5C67.7031 93.2197 75.2197 85.7031 84.5 85.7031C93.7803 85.7031 101.297 93.2197 101.297 102.5C101.297 111.78 93.7803 119.297 84.5 119.297ZM89.6902 110.529L82.56 105.347C82.2996 105.154 82.1484 104.852 82.1484 104.532V90.7422C82.1484 90.1879 82.602 89.7344 83.1563 89.7344H85.8438C86.398 89.7344 86.8516 90.1879 86.8516 90.7422V102.643L92.4617 106.724C92.9152 107.052 93.0076 107.682 92.6801 108.135L91.1012 110.311C90.7736 110.756 90.1438 110.856 89.6902 110.529Z" fill="white"/>
+</svg>
