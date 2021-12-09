@@ -1,6 +1,6 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g id="New_Labour_Permit">
-<rect id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
+<rect class="paper" id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
 <g id="Dark_Paper" style="mix-blend-mode:multiply">
 <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE"/>
 </g>
