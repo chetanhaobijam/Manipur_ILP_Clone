@@ -305,14 +305,8 @@ p {
   }
 }
 
-.paperColor {
-  animation: paperColorChange ease 2s;
-}
-
-@keyframes paperColorChange {
-  50% {
-    fill: #c2c2c2;
-  }
+svg .paper:hover {
+  fill: #c2c2c2;
 }
 
 /* Payment Section */
