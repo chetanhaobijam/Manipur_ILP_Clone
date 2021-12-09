@@ -1,257 +1,416 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Manipur ILP Clone</title>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon">
-    <link rel="icon" href="favicon.ico?" type="image/x-icon">
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
-      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
-      crossorigin="anonymous"
-    />
-    <!-- Bootstrap -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
-      integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2"
-      crossorigin="anonymous"
-    />
-    <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Custom Stylesheet -->
-    <link rel="stylesheet" href="assets/css/styles.css" />
-  </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="navbar-brand">
-        <div><img class="logo" src="images/logo.png" alt="logo" /></div>
-      </div>
 
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarContent"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manipur ILP Clone</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="favicon.ico?" type="image/x-icon" />
+  <link rel="icon" href="favicon.ico?" type="image/x-icon" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous" />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap"
+    rel="stylesheet" />
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
 
-      <div class="collapse navbar-collapse" id="navbarContent">
-        <ul class="navbar-nav text-uppercase">
-          <li class="nav-item">
-            <a href="#about" class="nav-link pl-3">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#permit" class="nav-link pl-3">Permit Type</a>
-          </li>
-          <li class="nav-item">
-            <a href="#payment" class="nav-link pl-3">Payment Fees</a>
-          </li>
-          <li class="nav-item">
-            <a href="#foreigners" class="nav-link pl-3">Foreigners</a>
-          </li>
-          <li class="nav-item">
-            <a href="#apply" class="nav-link pl-3">How to Apply</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- End of Navigation Bar -->
-
-    <!-- Banner -->
-    <section class="banner"></section>
-    <!-- End of Banner -->
-
-    <!-- About -->
-    <section class="about" id="about">
-      <h1>Manipur Inner Line Permit (ILP)</h1>
-      <p>
-        The Manipur Inner Line Permit (ILP) is an official travel document
-        issued by the state government to allow inward travel of an Indian
-        citizen visiting the beautiful state of Manipur for a specific time
-        period.
-      </p>
-      <p>
-        This is in exercise of the powers conferred by section 2 and section 4
-        of the Bengal Eastern Frontier Regulation, 1973 (Regulation 5 of 1873)
-        as extended to the State of Manipur vide Order of President of India No.
-        S.O. 4433(E) dated 11/12/2019
-      </p>
-      <p>
-        We welcome you all to visit this beautiful State that blooms in the
-        North Eastern part of the Country.
-      </p>
-    </section>
-    <!-- End of  About Section-->
-
-    <!-- Permit Section -->
-    <section class="permit" id="permit">
-      <div class="permitTitle">Apply Your Permit Type</div>
-      <div class="permitGrid">
-        <div class="permitSubGrid">
-          <div class="permit-icon">
-            <img src="./images/New_Special_Permit.svg" alt="Special Permit">
-          </div>
-          <div class="type">1. Special Category</div>
-          <div class="permit-form">Form 'A'</div>
-          <div class="description">
-            People like govt. contractors, investors, traders with business
-            establishments in the state. (3 Year/renewal)
-          </div>
-        </div>
-        <div class="permitSubGrid">
-          <div class="permit-icon">
-            <img src="./images/New_Regular_Permit.svg" alt="Regular Permit">
-          </div>
-          <div class="type">2. Regular Permit</div>
-          <div class="permit-form">Form 'B'</div>
-          <div class="description">
-            Individuals who visit the state sponsor by any permanent resident of
-            the state. (6 months)
-          </div>
-        </div>
-        <div class="permitSubGrid">
-          <div class="permit-icon">
-            <img src="./images/New_Temporary_Permit.svg" alt="Temporary Permit">
-          </div>
-          <div class="type">3. Temporary Permit</div>
-          <div class="permit-form">Form 'C'</div>
-          <div class="description">
-            Tourists, business representatives or those who visit for a short
-            period. (15 days)
-          </div>
-        </div>
-        <div class="permitSubGrid">
-          <div class="permit-icon">
-            <img src="./images/New_Labour_Permit.svg" alt="Labour Permit">
-          </div>
-          <div class="type">4. Labour Permit</div>
-          <div class="permit-form">Form 'D'</div>
-          <div class="description">
-            A specific period to a group of labourers brought by any contractor
-            or firm or company or individual.
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Permit -->
-
-    <!-- Payment Section -->
-    <section class="payment" id="payment">
-      <div class="paymentTitle">Payment of Fees</div>
-      <div class="paymentGrid">
-        <div class="paymentSubGrid">
-          <div class="paymentSubTitle">1. Special Permit</div>
-          <div class="description">
-            Rs. 5000/- in the first instance and Rs. 10,000 in the subsequent
-            instance
-          </div>
-        </div>
-        <div class="paymentSubGrid">
-          <div class="paymentSubTitle">2. Regular Permit</div>
-          <div class="description">
-            Rs. 500/- in the first instance and Rs. 1000/- for each renewal
-          </div>
-        </div>
-        <div class="paymentSubGrid">
-          <div class="paymentSubTitle">3. Temporary Permit</div>
-          <div class="description">
-            Rs. 100/- in the first instance and Rs. 200/- for renewal
-          </div>
-        </div>
-        <div class="paymentSubGrid">
-          <div class="paymentSubTitle">4. Bulk Permit</div>
-          <div class="description">
-            Rs. 100/- each for individual in the first instance and Rs. 100/-
-            for renewal
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Payment Section -->
-
-    <!-- Apply Section -->
-    <section class="apply" id="apply">
-      <div class="applyTitle text-uppercase">How to Apply?</div>
-      <div class="applyBtn">
-        <a href="#" class="btn btn-warning"
-        >Click Here to Read The Instruction</a
-      >
-      </div>
-      
-    </section>
-    <!-- End of Apply Section -->
-
-    <!-- Foreigners Section -->
-    <section class="foreigners" id="foreigners">
-      <div class="foreignersTitle">Entry of Foreigners</div>
-      <div class="description">
-        Regulations and guidelines shall not apply to foreigners who shall be
-        regulated and governed by Foreigners (Protected Area) Order, 1958 made
-        under the provision of Foreigners Act, 1946 and the Passport (Entry into
-        India) Rules, 1950 and subsequent amendments.
-      </div>
-    </section>
-    <!-- End of Foreigners Section -->
-
-    <!-- Credits Section -->
-    <section class="credits" id="credits">
-      <div class="creditsTitle">Manipur Inner Line Permit (ILP)</div>
-      <div class="departments">
-        <div>Department of Home</div>
-        <div>Department of Information Technology</div>
-        <div>Government of Manipur</div>
-      </div>
-      <div class="endCredits">
-        <div>
-          <a href="#">Your Feedback</a>
-        <div>All Rights Reserved</div>
-        <div>&copy; 2021 Manipur Inner Line Permit</div>
-        </div>
-      </div>
-    </section>
-    <!-- End of Credits Section -->
-    
-    <footer class="footer">
-      Created and Designed by
-      <a href="https://github.com/chetanhaobijam"
-        >Haobijam Chetan Singh (<i class="fab fa-github"></i>)</a
-      >
-    </footer>
-
-    <!-- Jump to Home -->
-    <div class="scrollToTopBtn">
-      <i class="fas fas fa-chevron-up text-light d-flex justify-content-center pt-1"></i>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="navbar-brand">
+      <div><img class="logo" src="images/logo.png" alt="logo" /></div>
     </div>
 
-    <!-- Scripts -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <script type="text/javascript" src="assets/scripts/script.js"></script>
+    <div class="collapse navbar-collapse" id="navbarContent">
+      <ul class="navbar-nav text-uppercase">
+        <li class="nav-item">
+          <a href="#about" class="nav-link pl-3">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="#permit" class="nav-link pl-3">Permit Type</a>
+        </li>
+        <li class="nav-item">
+          <a href="#payment" class="nav-link pl-3">Payment Fees</a>
+        </li>
+        <li class="nav-item">
+          <a href="#foreigners" class="nav-link pl-3">Foreigners</a>
+        </li>
+        <li class="nav-item">
+          <a href="#apply" class="nav-link pl-3">How to Apply</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- End of Navigation Bar -->
 
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <!-- Banner -->
+  <section class="banner"></section>
+  <!-- End of Banner -->
+
+  <!-- About -->
+  <section class="about" id="about">
+    <h1>Manipur Inner Line Permit (ILP)</h1>
+    <p>
+      The Manipur Inner Line Permit (ILP) is an official travel document
+      issued by the state government to allow inward travel of an Indian
+      citizen visiting the beautiful state of Manipur for a specific time
+      period.
+    </p>
+    <p>
+      This is in exercise of the powers conferred by section 2 and section 4
+      of the Bengal Eastern Frontier Regulation, 1973 (Regulation 5 of 1873)
+      as extended to the State of Manipur vide Order of President of India No.
+      S.O. 4433(E) dated 11/12/2019
+    </p>
+    <p>
+      We welcome you all to visit this beautiful State that blooms in the
+      North Eastern part of the Country.
+    </p>
+  </section>
+  <!-- End of  About Section-->
+
+  <!-- Permit Section -->
+  <section class="permit" id="permit">
+    <div class="permitTitle">Apply Your Permit Type</div>
+    <div class="permitGrid">
+      <div class="permitSubGrid">
+        <div class="permit-icon">
+          <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="New_Special_Permit" clip-path="url(#clip0_312_103)">
+              <rect class="paper" id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F"
+                stroke-width="4" />
+              <g id="Dark_Paper" style="mix-blend-mode:multiply">
+                <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE" />
+              </g>
+              <g id="Horizontal_Lines">
+                <rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F" />
+              </g>
+              <g id="Vertical_Lines">
+                <rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)"
+                  fill="#8D6C9F" />
+              </g>
+              <g id="Medal">
+                <path id="Medal_Bottom"
+                  d="M76.4144 102.822H92.3082L95.487 129L84.3613 120.819L73.2356 129L76.4144 102.822Z" fill="#2F80ED" />
+                <g id="Medal_2">
+                  <path id="Vector" d="M72.9084 84.9084H95.8142V107.814H72.9084V84.9084Z" fill="#FED557" />
+                  <path id="Vector_2"
+                    d="M84.3449 80C75.3135 80 68 87.3299 68 96.3613C68 105.393 75.3135 112.723 84.3449 112.723C93.3927 112.723 100.723 105.393 100.723 96.3613C100.723 87.3299 93.3927 80 84.3449 80ZM91.2821 106.178L84.3613 102.006L77.4405 106.178L79.2729 98.3083L73.1702 93.0236L81.2199 92.3364L84.3613 84.9084L87.5027 92.3201L95.5524 93.0072L89.4497 98.2919L91.2821 106.178Z"
+                    fill="#EB5757" />
+                </g>
+              </g>
+            </g>
+            <defs>
+              <clipPath id="clip0_312_103">
+                <rect width="128" height="128" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="type">1. Special Category</div>
+        <div class="permit-form">Form 'A'</div>
+        <div class="description">
+          People like govt. contractors, investors, traders with business
+          establishments in the state. (3 Year/renewal)
+        </div>
+      </div>
+      <div class="permitSubGrid">
+        <div class="permit-icon">
+          <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="New_Regular_Permit">
+              <rect class="paper" id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F"
+                stroke-width="4" />
+              <g id="Dark_Paper" style="mix-blend-mode:multiply">
+                <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE" />
+              </g>
+              <g id="Horizontal_Lines">
+                <rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F" />
+              </g>
+              <g id="Vertical_Lines">
+                <rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)"
+                  fill="#8D6C9F" />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="type">2. Regular Permit</div>
+        <div class="permit-form">Form 'B'</div>
+        <div class="description">
+          Individuals who visit the state sponsor by any permanent resident of
+          the state. (6 months)
+        </div>
+      </div>
+      <div class="permitSubGrid">
+        <div class="permit-icon">
+          <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="New_Temporary_Permit">
+              <rect class="paper" id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F"
+                stroke-width="4" />
+              <g id="Dark_Paper" style="mix-blend-mode:multiply">
+                <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE" />
+              </g>
+              <g id="Horizontal_Lines">
+                <rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F" />
+              </g>
+              <g id="Vertical_Lines">
+                <rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)"
+                  fill="#8D6C9F" />
+              </g>
+              <g id="Clock">
+                <g id="Clock_2">
+                  <circle id="Ellipse 1" cx="84.5" cy="102.5" r="21.5" fill="#D37B2C" />
+                </g>
+                <g id="clock-regular 1">
+                  <path id="Vector"
+                    d="M84.5 81.6719C72.9941 81.6719 63.6719 90.9941 63.6719 102.5C63.6719 114.006 72.9941 123.328 84.5 123.328C96.0059 123.328 105.328 114.006 105.328 102.5C105.328 90.9941 96.0059 81.6719 84.5 81.6719ZM84.5 119.297C75.2197 119.297 67.7031 111.78 67.7031 102.5C67.7031 93.2197 75.2197 85.7031 84.5 85.7031C93.7803 85.7031 101.297 93.2197 101.297 102.5C101.297 111.78 93.7803 119.297 84.5 119.297ZM89.6902 110.529L82.56 105.347C82.2996 105.154 82.1484 104.852 82.1484 104.532V90.7422C82.1484 90.1879 82.602 89.7344 83.1563 89.7344H85.8438C86.398 89.7344 86.8516 90.1879 86.8516 90.7422V102.643L92.4617 106.724C92.9152 107.052 93.0076 107.682 92.6801 108.135L91.1012 110.311C90.7736 110.756 90.1438 110.856 89.6902 110.529Z"
+                    fill="white" />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="type">3. Temporary Permit</div>
+        <div class="permit-form">Form 'C'</div>
+        <div class="description">
+          Tourists, business representatives or those who visit for a short
+          period. (15 days)
+        </div>
+      </div>
+      <div class="permitSubGrid">
+        <div class="permit-icon">
+          <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g id="New_Labour_Permit">
+              <rect class="paper" id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F"
+                stroke-width="4" />
+              <g id="Dark_Paper" style="mix-blend-mode:multiply">
+                <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE" />
+              </g>
+              <g id="Horizontal_Lines">
+                <rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F" />
+                <rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F" />
+              </g>
+              <g id="Vertical_Lines">
+                <rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)"
+                  fill="#8D6C9F" />
+                <rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)"
+                  fill="#8D6C9F" />
+              </g>
+              <g id="Labour">
+                <path id="Head" fill-rule="evenodd" clip-rule="evenodd"
+                  d="M68.3507 88.9502C69.0177 99.0684 75.2964 107 82.9433 107C90.5903 107 96.8689 99.0684 97.5359 88.9502H68.3507Z"
+                  fill="white" />
+                <g id="Helmet">
+                  <path id="Subtract" fill-rule="evenodd" clip-rule="evenodd"
+                    d="M80.8 74.1508C73.1153 75.2126 67.2 81.7567 67.2 89.671L67.2 89.6712H98.8V89.671C98.8 81.7567 92.8847 75.2126 85.2 74.1508V79.0373H80.8V74.1508Z"
+                    fill="#4F4F4F" />
+                  <rect id="Rectangle 90" x="81.6" y="74" width="2.8" height="8.95485" fill="#828282" />
+                  <rect id="Rectangle 92" x="66.4" y="88.5516" width="33.2" height="2.79839" rx="1.3992"
+                    fill="#828282" />
+                </g>
+                <path id="Body"
+                  d="M76.2 106.9L72.6 107.766L68.4 109.065L65.2 111.229L62.8 113.611L61.2 116.858L60 120.971V125.3H106V120.971L105 117.291L103.8 113.611L101.8 111.229L98.4 109.065L94.2 107.766L90.8 106.9L90 108.848L89 110.796L87.8 111.879L86.6 112.528L83.6 112.961L81 112.528L79.4 111.446L78 110.147L77 108.415L76.2 106.9Z"
+                  fill="#4F4F4F" />
+                <g id="Stripes">
+                  <path id="Rectangle 94" d="M71.8433 107.281L73.9784 106.75V117.72H71.8433V107.281Z" fill="white" />
+                  <path id="Rectangle 95" d="M93.1946 106.925L95.3297 107.498V117.72H93.1946V106.925Z" fill="white" />
+                  <rect id="Rectangle 98" x="97.4649" y="118.59" width="2.13513" height="6.95977" fill="white" />
+                  <rect id="Rectangle 97" x="68" y="118.155" width="2.13513" height="7.39475" fill="white" />
+                  <path id="Rectangle 96"
+                    d="M98.5125 117.285C99.1131 117.285 99.6 117.772 99.6 118.373C99.6 118.973 99.1131 119.46 98.5125 119.46L69.0875 119.46C68.4869 119.46 68 118.973 68 118.373C68 117.772 68.4869 117.285 69.0875 117.285L98.5125 117.285Z"
+                    fill="white" />
+                </g>
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div class="type">4. Labour Permit</div>
+        <div class="permit-form">Form 'D'</div>
+        <div class="description">
+          A specific period to a group of labourers brought by any contractor
+          or firm or company or individual.
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Permit -->
+
+  <!-- Payment Section -->
+  <section class="payment" id="payment">
+    <div class="paymentTitle">Payment of Fees</div>
+    <div class="paymentGrid">
+      <div class="paymentSubGrid">
+        <div class="paymentSubTitle">1. Special Permit</div>
+        <div class="description">
+          Rs. 5000/- in the first instance and Rs. 10,000 in the subsequent
+          instance
+        </div>
+      </div>
+      <div class="paymentSubGrid">
+        <div class="paymentSubTitle">2. Regular Permit</div>
+        <div class="description">
+          Rs. 500/- in the first instance and Rs. 1000/- for each renewal
+        </div>
+      </div>
+      <div class="paymentSubGrid">
+        <div class="paymentSubTitle">3. Temporary Permit</div>
+        <div class="description">
+          Rs. 100/- in the first instance and Rs. 200/- for renewal
+        </div>
+      </div>
+      <div class="paymentSubGrid">
+        <div class="paymentSubTitle">4. Bulk Permit</div>
+        <div class="description">
+          Rs. 100/- each for individual in the first instance and Rs. 100/-
+          for renewal
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Payment Section -->
+
+  <!-- Apply Section -->
+  <section class="apply" id="apply">
+    <div class="applyTitle text-uppercase">How to Apply?</div>
+    <div class="applyBtn">
+      <a href="#" class="btn btn-warning">Click Here to Read The Instruction</a>
+    </div>
+  </section>
+  <!-- End of Apply Section -->
+
+  <!-- Foreigners Section -->
+  <section class="foreigners" id="foreigners">
+    <div class="foreignersTitle">Entry of Foreigners</div>
+    <div class="description">
+      Regulations and guidelines shall not apply to foreigners who shall be
+      regulated and governed by Foreigners (Protected Area) Order, 1958 made
+      under the provision of Foreigners Act, 1946 and the Passport (Entry into
+      India) Rules, 1950 and subsequent amendments.
+    </div>
+  </section>
+  <!-- End of Foreigners Section -->
+
+  <!-- Credits Section -->
+  <section class="credits" id="credits">
+    <div class="creditsTitle">Manipur Inner Line Permit (ILP)</div>
+    <div class="departments">
+      <div>Department of Home</div>
+      <div>Department of Information Technology</div>
+      <div>Government of Manipur</div>
+    </div>
+    <div class="endCredits">
+      <div>
+        <a href="#">Your Feedback</a>
+        <div>All Rights Reserved</div>
+        <div>&copy; 2021 Manipur Inner Line Permit</div>
+      </div>
+    </div>
+  </section>
+  <!-- End of Credits Section -->
+
+  <footer class="footer">
+    Created and Designed by
+    <a href="https://github.com/chetanhaobijam">Haobijam Chetan Singh (<i class="fab fa-github"></i>)</a>
+  </footer>
+
+  <!-- Jump to Home -->
+  <div class="scrollToTopBtn">
+    <i class="
+          fas fas
+          fa-chevron-up
+          text-light
+          d-flex
+          justify-content-center
+          pt-1
+        "></i>
+  </div>
+
+  <!-- Scripts -->
+
+  <script type="text/javascript" src="assets/scripts/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>

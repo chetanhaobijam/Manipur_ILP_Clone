@@ -26,14 +26,17 @@ document.addEventListener("scroll", handleScroll);
 const permitSubGrid = document.querySelectorAll(".permitSubGrid");
 const permitIcon = document.querySelectorAll(".permit-icon");
 const permitForm = document.querySelectorAll(".permit-form");
+const paper = document.querySelectorAll(".paper");
 
 for(let i = 0; i < permitSubGrid.length; i++) {
   permitSubGrid[i].addEventListener("mouseenter", () => {
     permitIcon[i].classList.add("zoom");
     permitForm[i].classList.add("pushUp");
+    paper[i].classList.add("paperColor");
   })
   permitSubGrid[i].addEventListener("mouseleave", () => {
     permitIcon[i].classList.remove("zoom");
     permitForm[i].classList.remove("pushUp");
+    paper[i].classList.remove("paperColor");
   })
 }

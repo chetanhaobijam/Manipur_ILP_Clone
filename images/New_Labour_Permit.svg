@@ -1,28 +1,40 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
-<g style="mix-blend-mode:multiply">
+<g id="New_Labour_Permit">
+<rect id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
+<g id="Dark_Paper" style="mix-blend-mode:multiply">
 <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE"/>
 </g>
-<rect x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)" fill="#8D6C9F"/>
-<rect x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)" fill="#8D6C9F"/>
-<rect x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)" fill="#8D6C9F"/>
-<rect x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)" fill="#8D6C9F"/>
-<rect x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)" fill="#8D6C9F"/>
-<rect x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)" fill="#8D6C9F"/>
-<rect x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)" fill="#8D6C9F"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M68.3507 88.9502C69.0177 99.0684 75.2964 107 82.9433 107C90.5903 107 96.8689 99.0684 97.5359 88.9502H68.3507Z" fill="white"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M80.8 74.1508C73.1153 75.2126 67.2 81.7567 67.2 89.671L67.2 89.6712H98.8V89.671C98.8 81.7567 92.8847 75.2126 85.2 74.1508V79.0373H80.8V74.1508Z" fill="#4F4F4F"/>
-<rect x="81.6" y="74" width="2.8" height="8.95485" fill="#828282"/>
-<rect x="66.4" y="88.5516" width="33.2" height="2.79839" rx="1.3992" fill="#828282"/>
-<path d="M76.2 106.9L72.6 107.766L68.4 109.065L65.2 111.229L62.8 113.611L61.2 116.858L60 120.971V125.3H106V120.971L105 117.291L103.8 113.611L101.8 111.229L98.4 109.065L94.2 107.766L90.8 106.9L90 108.848L89 110.796L87.8 111.879L86.6 112.528L83.6 112.961L81 112.528L79.4 111.446L78 110.147L77 108.415L76.2 106.9Z" fill="#4F4F4F"/>
-<path d="M71.8433 107.281L73.9784 106.75V117.72H71.8433V107.281Z" fill="white"/>
-<path d="M93.1946 106.925L95.3297 107.498V117.72H93.1946V106.925Z" fill="white"/>
-<rect x="97.4649" y="118.59" width="2.13513" height="6.95977" fill="white"/>
-<rect x="68" y="118.155" width="2.13513" height="7.39475" fill="white"/>
-<path d="M98.5125 117.285C99.1131 117.285 99.6 117.772 99.6 118.373C99.6 118.973 99.1131 119.46 98.5125 119.46L69.0875 119.46C68.4869 119.46 68 118.973 68 118.373C68 117.772 68.4869 117.285 69.0875 117.285L98.5125 117.285Z" fill="white"/>
+<g id="Horizontal_Lines">
+<rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F"/>
+</g>
+<g id="Vertical_Lines">
+<rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)" fill="#8D6C9F"/>
+</g>
+<g id="Labour">
+<path id="Head" fill-rule="evenodd" clip-rule="evenodd" d="M68.3507 88.9502C69.0177 99.0684 75.2964 107 82.9433 107C90.5903 107 96.8689 99.0684 97.5359 88.9502H68.3507Z" fill="white"/>
+<g id="Helmet">
+<path id="Subtract" fill-rule="evenodd" clip-rule="evenodd" d="M80.8 74.1508C73.1153 75.2126 67.2 81.7567 67.2 89.671L67.2 89.6712H98.8V89.671C98.8 81.7567 92.8847 75.2126 85.2 74.1508V79.0373H80.8V74.1508Z" fill="#4F4F4F"/>
+<rect id="Rectangle 90" x="81.6" y="74" width="2.8" height="8.95485" fill="#828282"/>
+<rect id="Rectangle 92" x="66.4" y="88.5516" width="33.2" height="2.79839" rx="1.3992" fill="#828282"/>
+</g>
+<path id="Body" d="M76.2 106.9L72.6 107.766L68.4 109.065L65.2 111.229L62.8 113.611L61.2 116.858L60 120.971V125.3H106V120.971L105 117.291L103.8 113.611L101.8 111.229L98.4 109.065L94.2 107.766L90.8 106.9L90 108.848L89 110.796L87.8 111.879L86.6 112.528L83.6 112.961L81 112.528L79.4 111.446L78 110.147L77 108.415L76.2 106.9Z" fill="#4F4F4F"/>
+<g id="Stripes">
+<path id="Rectangle 94" d="M71.8433 107.281L73.9784 106.75V117.72H71.8433V107.281Z" fill="white"/>
+<path id="Rectangle 95" d="M93.1946 106.925L95.3297 107.498V117.72H93.1946V106.925Z" fill="white"/>
+<rect id="Rectangle 98" x="97.4649" y="118.59" width="2.13513" height="6.95977" fill="white"/>
+<rect id="Rectangle 97" x="68" y="118.155" width="2.13513" height="7.39475" fill="white"/>
+<path id="Rectangle 96" d="M98.5125 117.285C99.1131 117.285 99.6 117.772 99.6 118.373C99.6 118.973 99.1131 119.46 98.5125 119.46L69.0875 119.46C68.4869 119.46 68 118.973 68 118.373C68 117.772 68.4869 117.285 69.0875 117.285L98.5125 117.285Z" fill="white"/>
+</g>
+</g>
+</g>
 </svg>

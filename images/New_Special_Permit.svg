@@ -1,24 +1,32 @@
 <svg width="128" height="128" viewBox="0 0 128 128" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g clip-path="url(#clip0_312_103)">
-<rect x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
-<g style="mix-blend-mode:multiply">
+<g id="New_Special_Permit" clip-path="url(#clip0_312_103)">
+<rect id="Paper" x="17" y="8" width="93" height="111" rx="5" fill="#FAEFDE" stroke="#8D6C9F" stroke-width="4"/>
+<g id="Dark_Paper" style="mix-blend-mode:multiply">
 <rect x="17" y="92" width="93" height="27" rx="5" fill="#EFD8BE"/>
 </g>
-<rect x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F"/>
-<rect x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)" fill="#8D6C9F"/>
-<rect x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)" fill="#8D6C9F"/>
-<rect x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)" fill="#8D6C9F"/>
-<rect x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)" fill="#8D6C9F"/>
-<rect x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)" fill="#8D6C9F"/>
-<rect x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)" fill="#8D6C9F"/>
-<rect x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)" fill="#8D6C9F"/>
-<path d="M76.4144 102.822H92.3082L95.487 129L84.3613 120.819L73.2356 129L76.4144 102.822Z" fill="#2F80ED"/>
-<path d="M72.9084 84.9084H95.8142V107.814H72.9084V84.9084Z" fill="#FED557"/>
-<path d="M84.3449 80C75.3135 80 68 87.3299 68 96.3613C68 105.393 75.3135 112.723 84.3449 112.723C93.3927 112.723 100.723 105.393 100.723 96.3613C100.723 87.3299 93.3927 80 84.3449 80ZM91.2821 106.178L84.3613 102.006L77.4405 106.178L79.2729 98.3083L73.1702 93.0236L81.2199 92.3364L84.3613 84.9084L87.5027 92.3201L95.5524 93.0072L89.4497 98.2919L91.2821 106.178Z" fill="#EB5757"/>
+<g id="Horizontal_Lines">
+<rect id="Rectangle 100" x="36" y="33" width="25" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 102" x="36" y="42" width="45" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 103" x="36" y="53" width="48" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 104" x="36" y="61" width="28" height="4" rx="2" fill="#8D6C9F"/>
+<rect id="Rectangle 101" x="67" y="33" width="21" height="4" rx="2" fill="#8D6C9F"/>
+</g>
+<g id="Vertical_Lines">
+<rect id="Rectangle 106" x="23" y="86" width="10" height="4" rx="2" transform="rotate(90 23 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 107" x="37" y="86" width="10" height="4" rx="2" transform="rotate(90 37 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 110" x="65" y="86" width="10" height="4" rx="2" transform="rotate(90 65 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 112" x="79" y="86" width="10" height="4" rx="2" transform="rotate(90 79 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 113" x="93" y="86" width="10" height="4" rx="2" transform="rotate(90 93 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 114" x="107" y="86" width="10" height="4" rx="2" transform="rotate(90 107 86)" fill="#8D6C9F"/>
+<rect id="Rectangle 111" x="51" y="86" width="10" height="4" rx="2" transform="rotate(90 51 86)" fill="#8D6C9F"/>
+</g>
+<g id="Medal">
+<path id="Medal_Bottom" d="M76.4144 102.822H92.3082L95.487 129L84.3613 120.819L73.2356 129L76.4144 102.822Z" fill="#2F80ED"/>
+<g id="Medal_2">
+<path id="Vector" d="M72.9084 84.9084H95.8142V107.814H72.9084V84.9084Z" fill="#FED557"/>
+<path id="Vector_2" d="M84.3449 80C75.3135 80 68 87.3299 68 96.3613C68 105.393 75.3135 112.723 84.3449 112.723C93.3927 112.723 100.723 105.393 100.723 96.3613C100.723 87.3299 93.3927 80 84.3449 80ZM91.2821 106.178L84.3613 102.006L77.4405 106.178L79.2729 98.3083L73.1702 93.0236L81.2199 92.3364L84.3613 84.9084L87.5027 92.3201L95.5524 93.0072L89.4497 98.2919L91.2821 106.178Z" fill="#EB5757"/>
+</g>
+</g>
 </g>
 <defs>
 <clipPath id="clip0_312_103">
