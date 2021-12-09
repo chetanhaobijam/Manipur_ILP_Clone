@@ -23,52 +23,17 @@ document.addEventListener("scroll", handleScroll);
 // End of Scroll To Top Button Action
 
 // Start of Permit Sub-grid Action
-const zoomIconOne = document.querySelector(".zoomIconOne");
-const zoomGridOne = document.querySelector(".zoomGridOne");
-const zoomIconTwo = document.querySelector(".zoomIconTwo");
-const zoomGridTwo = document.querySelector(".zoomGridTwo");
-const zoomIconThree = document.querySelector(".zoomIconThree");
-const zoomGridThree = document.querySelector(".zoomGridThree");
-const zoomIconFour = document.querySelector(".zoomIconFour");
-const zoomGridFour = document.querySelector(".zoomGridFour");
+const permitSubGrid = document.querySelectorAll(".permitSubGrid");
+const permitIcon = document.querySelectorAll(".permit-icon");
+const permitForm = document.querySelectorAll(".permit-form");
 
-const zoomInOne = () => {
-  zoomIconOne.classList.add("zoom");
+for(let i = 0; i < permitSubGrid.length; i++) {
+  permitSubGrid[i].addEventListener("mouseenter", () => {
+    permitIcon[i].classList.add("zoom");
+    permitForm[i].classList.add("pushUp");
+  })
+  permitSubGrid[i].addEventListener("mouseleave", () => {
+    permitIcon[i].classList.remove("zoom");
+    permitForm[i].classList.remove("pushUp");
+  })
 }
-
-const zoomOutOne = () => {
-  zoomIconOne.classList.remove("zoom");
-}
-
-const zoomInTwo = () => {
-  zoomIconTwo.classList.add("zoom");
-}
-
-const zoomOutTwo = () => {
-  zoomIconTwo.classList.remove("zoom");
-}
-
-const zoomInThree = () => {
-  zoomIconThree.classList.add("zoom");
-}
-
-const zoomOutThree = () => {
-  zoomIconThree.classList.remove("zoom");
-}
-
-const zoomInFour = () => {
-  zoomIconFour.classList.add("zoom");
-}
-
-const zoomOutFour = () => {
-  zoomIconFour.classList.remove("zoom");
-}
-
-zoomGridOne.addEventListener("mouseenter", zoomInOne);
-zoomGridOne.addEventListener("mouseleave", zoomOutOne);
-zoomGridTwo.addEventListener("mouseenter", zoomInTwo);
-zoomGridTwo.addEventListener("mouseleave", zoomOutTwo);
-zoomGridThree.addEventListener("mouseenter", zoomInThree);
-zoomGridThree.addEventListener("mouseleave", zoomOutThree);
-zoomGridFour.addEventListener("mouseenter", zoomInFour);
-zoomGridFour.addEventListener("mouseleave", zoomOutFour);

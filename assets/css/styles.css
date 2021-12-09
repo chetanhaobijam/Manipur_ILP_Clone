@@ -191,21 +191,25 @@ p {
   padding-bottom: 3rem;
 }
 
-.permitGridSub {
+.permitSubGrid {
   width: 80%;
   padding: 2rem 1rem;
   margin: 0 auto;
   cursor: pointer;
 }
 
-.icon {
+.permit-icon {
   margin: 0 auto 1rem;
   max-width: 100px;
 }
 
-.icon img {
+.permit-icon img {
   width: 100%;
   height: 100%;
+}
+
+.permit-form {
+  font-size: 1.2rem;
 }
 
 .type {
@@ -261,7 +265,7 @@ p {
 }
 
 /* Permit Grid Animations */
-.permitGridSub:hover {
+.permitSubGrid:hover {
   animation: permitGridSubHover ease 1s;
   animation-fill-mode: forwards;
 }
@@ -292,7 +296,14 @@ p {
   animation: pushUp ease 2s;
 }
 
-@keyframes pushUp {}
+@keyframes pushUp {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
 
 /* Payment Section */
 .payment {
